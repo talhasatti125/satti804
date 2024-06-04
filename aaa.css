@@ -1,0 +1,82 @@
+.a{
+    background-color: black;
+}
+
+#a{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+#a:hover{
+    border-bottom: 2px solid red;
+    border-radius: 8px;
+    color: lightblue;
+}
+.b{
+    background-color:black;
+    font-size: 15px;
+    color:white;
+}
+.b:hover{
+    border-bottom: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: #000;
+}
+#m{
+    background-color:black;
+    font-size: 15px;
+    color:white; 
+}
+#m:hover{
+    border-bottom: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: #000;
+}
+
+#b:hover{
+    background-color: white;
+}
+.c{
+    width: 120px;
+    height: 90px;   
+}
+.e{
+    background-color: white;
+}
+.d{
+    width: 200px;
+    height: 800px;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 80px;
+
+    
+}
+.card:hover{
+    box-shadow: 3px 3px 10px black;
+}
+#ad{
+    width: 500px;
+    height: 500px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.title{
+    text-align: center;
+}
+
+/* button a{
+    color: white;
+}
+button a:hover{
+    color: white;
+} */

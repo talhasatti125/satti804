@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class student{
+            constructor(name,age,salary,address){
+                this.st_name=name;
+                this.st_age=age;
+                this.st_salary=salary;
+                this.st_address=address;
+            }
+            hi(){
+                document.write(`<h1 style=font-size:80px;color:pink;>name:${this.st_name}<br> age:${this.st_age}<br> salary:${this.st_salary}<br> address:${this.st_address}</h1>`)
+                
+            }
+        }
+        let a= new student("Talha satti",16,"$25000","karachi");
+        let b= new student("Huzaifa khan",19,"$45000","sawabi");
+        let c= new student("hina",20,"900RS","Rawalpindi");
+        let d= new student("mishal",17,"1000RS","Islamabad");
+        a.hi();
+        b.hi(); 
+        c.hi();
+        d.hi();
+       
+    </script>
+</body>
+</html>
